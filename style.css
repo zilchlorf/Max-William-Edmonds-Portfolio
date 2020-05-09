@@ -1,7 +1,29 @@
-body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #777;
-    line-height: 34px;
-    background: url("../images/concrete_seamless.png");
+@media screen and (max-width: 768px) {
+  #profile_pic {
+    max-width: 100%;
+    height: auto;
+
   }
+  .container { margin-bottom: 20% ;
+}
+
+@media screen and (max-width: 640) {
+   .container {
+    width: 40%;
+      }
+    #profile_pic {
+        max-width: 100%;
+        height: auto;
+    }
+    .second_column {
+        grid-column-end: 50%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .navbar navbar-expand-lg navbar-light bg-light {
+    width: 10%;
+    }
+    .container {padding-right: 10%;}
+    .container {padding-bottom: 10%;}
+}
