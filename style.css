@@ -1,29 +1,58 @@
-@media screen and (max-width: 768px) {
-  #profile_pic {
-    max-width: 100%;
-    height: auto;
 
-  }
-  .container { margin-bottom: 20% ;
+/* Home/About page CSS */
+body {
+  background-color: #28a745;
 }
 
-@media screen and (max-width: 640) {
-   .container {
-    width: 40%;
-      }
-    #profile_pic {
-        max-width: 100%;
-        height: auto;
-    }
-    .second_column {
-        grid-column-end: 50%;
-    }
+/* Contact page CSS */
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
 }
 
-@media screen and (max-width: 980px) {
-    .navbar navbar-expand-lg navbar-light bg-light {
-    width: 10%;
-    }
-    .container {padding-right: 10%;}
-    .container {padding-bottom: 10%;}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Portfolio CSS */
+
+#LinksToMedia {
+  font-size: larger;
+
+}
+#KizikVideo {
+  width: 420px;
+  height: 345px;
+  border:black;
+}
+
+#KizikPicture {
+  width: 420px;
+  height: 345px;
+  border:black;
 }
