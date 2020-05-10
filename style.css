@@ -1,13 +1,32 @@
 
 /* Home/About page CSS */
 
-body {
-  background-color: #28a745;
+h1{
+  text-align: center;
+  font-family: monospace;
+  font-size: 60px;
+  font-style: normal;
+  text-shadow: black;
+  color: #0f0202;
+  font-weight: bolder;
 }
 
-h1 {
+h2{
   text-align: center;
+  font-size: 30px;
+  color: #0f0202;
 }
+
+body {
+  background-color: #28a745;
+  color: bisque;
+}
+
+.navbar-expand-sm navbar-light bg-light {
+  color: darkslategray;
+}
+
+
 
 /* Contact page CSS */
 
@@ -32,32 +51,82 @@ input[type=submit] {
   cursor: pointer;
 }
 
-
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #0f0202;
   padding: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 /* Portfolio CSS */
 
 #LinksToMedia {
   font-size: larger;
-
+  color: black;
 }
+
 #KizikVideo {
-  width: 420px;
-  height: 345px;
+  width: 300px;
+  height: 300px;
   border:black;
 }
 
 #KizikPicture {
-  width: 420px;
-  height: 345px;
+  width: 300px;
+  height: 300px;
   border:black;
+  border-width: 30px;
+}
+
+
+/* Navbar */
+
+.nav-link {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: brown;
+}
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 640) {
+
+  #ProfilePic {
+    grid-gap: 10px;
+    gap: 10px;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+  }
+
+  #PortfolioContainer {
+    object-fit: cover;
+    fill: #0f0202;
+    max-width: 100%;
+  }
+
+  #KizikVideo  {
+    grid-gap: 10px;
+    gap: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  #KizikPicture {
+    grid-gap: 10px;
+    gap: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+  }
 }
