@@ -26,8 +26,6 @@ body {
   color: darkslategray;
 }
 
-
-
 /* Contact page CSS */
 
 input[type=text], select, textarea {
@@ -102,10 +100,8 @@ input[type=submit]:hover {
   #ProfilePic {
     max-height: 5%;
     max-width: 5%;
-    display: block;
-    margin: 0 auto;
-    width: 50px;
-    height: 20px;
+    width: 20px;
+    height: 5px;
   }
 
   #PortfolioContainer {
