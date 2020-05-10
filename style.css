@@ -100,17 +100,20 @@ input[type=submit]:hover {
 @media screen and (max-width: 640) {
 
   #ProfilePic {
-    grid-gap: 10px;
-    gap: 10px;
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-  }
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    object-fit: scale-down;
+    }
 
   #PortfolioContainer {
     object-fit: cover;
     fill: #0f0202;
     max-width: 100%;
+    align-content: right;
+    float: left;
   }
 
   #KizikVideo  {
@@ -118,7 +121,10 @@ input[type=submit]:hover {
     gap: 10px;
     object-fit: cover;
     max-width: 100%;
-    margin-right: 10px;
+    margin-left: -50px;
+    text-align: center;
+    align-content: center;
+    object-fit: scale-down;
   }
 
   #KizikPicture {
@@ -128,5 +134,9 @@ input[type=submit]:hover {
     max-width: 100%;
     width: 100px;
     height: 100px;
+    margin-left: -20px;
+    text-align: center;
+    align-content: left;
+    object-fit: scale-down;
   }
 }
