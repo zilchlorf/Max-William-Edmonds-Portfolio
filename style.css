@@ -5,6 +5,10 @@ body {
   background-color: #28a745;
 }
 
+h1 {
+  text-align: center;
+}
+
 /* Contact page CSS */
 
 input[type=text], select, textarea {
